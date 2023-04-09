@@ -1,0 +1,23 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    column-count: 2;
+    column-gap: 1rem;
+}
+
+header {
+    column-span: all;
+    margin-bottom: 2rem;
+}
+
+.coffee-container {
+    width: 100%;
+    margin-bottom: 1rem;
+    break-inside: avoid;
+}
+
+    .coffee-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
